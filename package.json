@@ -1,0 +1,20 @@
+{
+  "name": "hr-protal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "scss": "node-sass scss/style.scss root/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mustache-express": "^1.3.0",
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2"
+  }
+}
